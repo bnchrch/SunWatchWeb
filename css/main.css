@@ -1,0 +1,115 @@
+@font-face{
+    font-family: "OpenSans-Light";
+    src: url('../fonts/Open_Sans/OpenSans-Light.ttf')
+}
+@font-face{
+    font-family: "OpenSans-Regular";
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf')
+}
+h1 {
+    font-family: OpenSans-Light;
+}
+html, body {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            right bottom,
+            color-stop(0, #feb645),
+            color-stop(1, #ac65cf)
+    );
+    background-image: -o-linear-gradient(315deg, #feb645 0%, #ac65cf 100%);
+    background-image: -moz-linear-gradient(315deg, #feb645 0%, #ac65cf 100%);
+    background-image: -webkit-linear-gradient(315deg, #feb645 0%, #ac65cf 100%);
+    background-image: -ms-linear-gradient(315deg, #feb645 0%, #ac65cf 100%);
+    background-image: linear-gradient(135deg, #feb645 0%, #ac65cf 100%);
+}
+
+
+.padding-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+.padding-top-15 {
+    padding-top: 15px;
+}
+
+.padding-top-20 {
+    padding-top: 20px;
+}
+
+.padding-top-30 {
+    padding-top: 30px;
+}
+
+.padding-top-40 {
+    padding-top: 40px;
+}
+
+.padding-top-80 {
+    padding-top: 80px;
+}
+.padding-top-100 {
+    padding-top: 100px;
+}
+.padding-top-120 {
+    padding-top: 120px;
+}
+
+.padding-left-10 {
+    padding-left: 10px;
+}
+
+.padding-right-20 {
+    padding-right: 20px;
+}
+.padding-50 {
+    padding: 50px;
+}
+.margin-top-20 {
+    margin-top: 20px;
+}
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+/*project specific*/
+.mainBody {
+    color: white;
+}
+#example-clock-container {
+    position: relative;
+}
+#example-clock-container #clock-time {
+    font-size: 4em;
+    font-family: OpenSans-Regular;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#example-line-container {
+    position: relative;
+}
+#example-line-container svg {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 130%;
+    height: 2px;
+}
+
